@@ -1,0 +1,70 @@
+:root {
+    --vertical-spacement: 20px;
+    --items-vertical-spacement: 5px;
+    --border-radius: 10px;
+    --background-color: #660000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+.card {
+    background-color: #eee;
+    width: 50vw;
+    margin: 10vw auto;
+    border-radius: var(--border-radius);
+    padding: 20px;
+}
+
+.input-card {
+    margin-top: var(--vertical-spacement);
+}
+
+#temperature {
+    width: 70%;
+    padding: 5px 10px;
+    border: .5px solid #333;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-type {
+    margin-top: var(--vertical-spacement);
+}
+
+#convert {
+    margin-top: var(--items-vertical-spacement);
+    background-color: #003049;
+    box-shadow: 0 3px 0 #001b2a;
+    border: .5px solid #001b2a;
+}
+
+button {
+    color: #ddd;
+    font-weight: bold;
+    background-color: #8C001A;
+    padding: 5px;
+    border: .5px solid var(--background-color);
+    box-shadow: 0 3px 0 var(--background-color);
+    border-radius: var(--border-radius);
+    transition: .2s;
+}
+
+button:active {
+    transform: scale(0.95);
+    background-color: #710015;
+}
+
+.output-card {
+    border-radius: var(--border-radius);
+    margin-top: var(--vertical-spacement);
+    border: 3px solid var(--background-color);
+    padding: 10px;
+}
